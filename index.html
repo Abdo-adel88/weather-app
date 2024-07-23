@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+
+
+
+    <section class="vh-100 ">
+
+        <nav class="navbar hii navbar-expand-lg navbar-light ">
+            <div class="container-fluid  ms-md-5">
+                <div class="left-nav ms-md-5  ">
+                    <div class="fir-img ms-md-5 text-center  d-flex align-items-center justify-content-center">
+                        <img class="w-25" src="img/logo@2x.png" alt="">
+                        <a class="navbar-brand ms-3 text-white" href="#">
+                            Weather <br />
+                            <span class="lead fs-6 text-center">tagline goes here</span></a>
+                    </div>
+
+                </div>
+
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex align-items-center justify-content-center">
+                        <li class="nav-item ">
+                            <a class="nav-link active text-center d-flex align-items-center justify-content-center"
+                                aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-md-4 d-flex align-items-center justify-content-center  hov-item"><a
+                                class="text-decoration-none   text-white" href="#">News</a></li>
+                        <li
+                            class="nav-item nav-itemm mx-md-4 d-flex align-items-center justify-content-center hov-item">
+                            <a class="text-decoration-none   text-white" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item mx-md-4 d-flex align-items-center justify-content-center hov-item"><a
+                                class="text-decoration-none   text-white" href="#">Photos</a></li>
+                        <li class="nav-item mx-md-4 d-flex align-items-center justify-content-center hov-item"><a
+                                class="text-decoration-none   text-white" href="#">Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="sec">
+            <div class="container">
+                <div class="coverr">
+                    <div class="serch text-white position-relative">
+
+                        <input id="search"
+                            class="form-control bgc position-relative text-white border-0 rounded-5 form-control-lg "
+                            type="text" placeholder="find your location..." aria-label=".form-control-lg example">
+                        <div id="alertt" class="d-none  align-items-center justify-content-center ">
+                            <div class=" rounded-5 bg-danger p-3 w-100 text-center">
+                                <h3 class="text-white">Please enter a valid country name</h3>
+                            </div>
+                        </div>
+                        <input class="position-absolute rounded-5 top-0 end-0 me-md-2 wid bg-info text-white border-0 "
+                            type="button" value="Find" id="submit">
+                    </div>
+                    <div class="threeItem d-flex mt-md-5 row g-3">
+                        <div id="forecast" class="itemss col-md-4 p-0 childd bgg wid-item rounded-2 ">
+
+                        </div>
+                        <div id="forecastTwo" class="col-md-4 bgg-2 p-0 text-center">
+
+                        </div>
+                        <div id="forecastThree" class="col-md-4 bgg p-0 text-center">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="bg-sec mt-md-5 bgg ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-8 mt-md-5 ">
+                        <div class="input-email position-relative ">
+                            <input class="form-control bgc text-white border-0 rounded-5 form-control-lg " type="text"
+                                placeholder="find your location..." aria-label=".form-control-lg example" />
+                            <input
+                                class="position-absolute rounded-5 top-0 end-0 me-md-2 wid bg-info text-white border-0 "
+                                type="button" value="Find" id="submit" />
+                        </div>
+
+                    </div>
+                    <div class="col-md-4  my-md-5">
+                        <div class="icons d-flex align-items-center justify-content-center">
+                            <div class="icon bgc rounded-circle me-2 d-flex align-items-center justify-content-center">
+                                <a class="" href="#"><i class="fa-brands fa-facebook-f text-info fs-5 "></i></a>
+                            </div>
+                            <div class="icon bgc rounded-circle me-2 d-flex align-items-center justify-content-center">
+                                <a href="#"><i class="fa-brands fa-twitter text-info fs-5"></i></a>
+                            </div>
+                            <div class="icon bgc rounded-circle me-2 d-flex align-items-center justify-content-center">
+                                <a href="#"><i class="fa-brands fa-google text-info fs-5"></i></a>
+                            </div>
+                            <div class="icon bgc rounded-circle me-2 d-flex align-items-center justify-content-center">
+                                <a href="#"><i class="fa-brands fa-square-pinterest text-info fs-5"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-md-5">
+                    <h6 class="fs-6 leadd">
+                        Copyright 2014 Company name. Designed by Themezy. All rights reserved
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
